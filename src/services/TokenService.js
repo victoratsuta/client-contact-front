@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseUrl = 'http://contacts:81/api/api/'
+const baseUrl = '/api/'
 
 export default class TokenService {
 
