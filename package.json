@@ -11,11 +11,19 @@
     "react-scripts": "0.8.4"
   },
   "dependencies": {
+    "@vtex/react-csv-parse": "^3.0.2",
+    "axios": "^0.18.0",
+    "rc-upload": "^2.6.1",
     "react": "^15.4.1",
+    "react-bootstrap": "^0.32.4",
+    "react-csv-reader": "^1.2.0",
     "react-dom": "^15.4.1",
+    "react-form-validator-core": "^0.5.1",
     "react-redux": "^5.0.1",
-    "react-router": "^3.0.0",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.2.2",
     "react-router-redux": "^4.0.7",
+    "react-table": "^6.8.6",
     "redux": "^3.6.0",
     "redux-saga": "^0.14.4",
     "semantic-ui-react": "^0.63.1"
@@ -23,6 +31,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "watch": "node scripts/watch.js",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "lint": "eslint src",

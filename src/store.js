@@ -1,6 +1,5 @@
 import { createStore, applyMiddleware } from 'redux';
-import { syncHistoryWithStore } from 'react-router-redux';
-import { browserHistory } from 'react-router';
+
 
 import createSagaMiddleware from 'redux-saga';
 import mySaga from './sagas/sagas';
@@ -15,7 +14,6 @@ const store = createStore(rootReducer, defaultState, applyMiddleware(sagaMiddlew
 
 sagaMiddleware.run(mySaga);
 
-export const history = syncHistoryWithStore(browserHistory, store);
 
 export default store;
 
